@@ -1,12 +1,13 @@
-# Ignore everything in my home directory
+# Ignore everything:
 *
 
-# Don't ignore these files
+# Don't ignore these files:
 !.gitignore
 !.zshrc
 
-# ...even if they are in subdirectories
-# !*/
+# Don't ignore these folders and their files:
+!mac-setup/
+!mac-setup/*.md
 
 # if the files to be tracked are in subdirectories
 # !*/a/b/file1.txt
