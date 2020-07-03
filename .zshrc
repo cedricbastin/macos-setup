@@ -79,3 +79,12 @@ export EDITOR='subl'
 # ZSH
 alias zshconfig="subl ~/.zshrc"
 alias ohmyzsh="subl ~/.oh-my-zsh"
+
+# Ruby (for Jekyll)
+export PATH="$HOME/.gem/ruby/2.7.0/bin:$PATH"
+
+# SSH - add identity when logging in
+if [ -z "$SSH_AUTH_SOCK" ] ; then
+  eval `ssh-agent -s`
+  ssh-add
+fi
