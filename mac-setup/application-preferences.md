@@ -13,6 +13,14 @@ Preferences:
 	- [x] Show events in year view
 	- [x] Show week numbers
 
+## Photos
+
+Menu Bar:
+
+- View
+	- Metadata
+	    - ✓ Titles (shows the original file names)
+
 ## Safari
 
 Preferences:

@@ -18,10 +18,13 @@
 
 Apps and tools to be installed by running either `brew install <name>` or `brew cask install <app name>` (for Apps with a UI) in the Terminal.
 
+- **AppCleaner** - easily delete Apps and they connected configuration and hidden files
 - **Macdown** - basic Markdown editor which renders a preview on the fly
 
 ## Other
 
+- **Google Drive 'Backup and Sync'** - to sync the few files that I have in GDrive
+- **Spotify** - Music streaming great
 
 ## App Preferences
 

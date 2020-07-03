@@ -63,3 +63,10 @@ Preferences:
 
 - App Shortcuts
 	- ⇧⌘/ Show Help menu
+
+
+## Terminal commands:
+
+Expand print dialog by default: defaults write -g PMPrintingExpandedStateForPrint -bool TRUE
+Add dock spaces: defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'; killall Dock
+Dock transition/reveal delay: defaults write com.apple.dock autohide-delay -float 0; killall Dock
