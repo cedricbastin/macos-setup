@@ -33,11 +33,16 @@ Generate an RSA public-key pair
 `ssh-keygen -t rsa`
 
 
-
 ## Homebrew
 
 install Homebrew
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`
+
+### install Cask
+
+install programs:
+
+- VisualStudio Code `brew cask install visual-studio-code`
 
 ## Other terminal commands
 
