@@ -3,6 +3,7 @@
 
 # Don't ignore these files:
 !.gitignore
+!.gitignore_global
 !.zshrc
 
 # Don't ignore these folders and their files:
