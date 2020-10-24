@@ -20,9 +20,9 @@ Since macOS Catalina, Mac's ship with `zsh` as the default shell. In order to ma
 `sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 
 
-## XCode command-line tools
+## Xcode command-line tools
 
-In order to run more interesting commands (e.g. `git`) in the Terminal you need to install the XCode command-line tools, you can do so even without installing XCode:
+In order to run more interesting commands (e.g. `git`) in the Terminal you need to install the Xcode command-line tools, you can do so even without installing Xcode:
 
 `xcode-select --install`
 
@@ -38,13 +38,13 @@ Generate an RSA public-key pair
 install Homebrew
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`
 
-### install Cask
+### Cask
 
 install programs:
 
-- VisualStudio Code `brew cask install visual-studio-code`
+- VisualStudio Code :`brew cask install visual-studio-code`
 
-## Other terminal commands
+## Other Terminal commands
 
 
 ## Sourcetree
@@ -53,3 +53,8 @@ Preferences:
 
 - Git
 	- [x] Stage files on double click
+- Custom Actions
+	- Menu Caption: *pull-rebase-autostash*
+	- shortcut: **⌘P**
+	- Script to run: `git`
+	- Parameters: `pull --rebase --autostash`
