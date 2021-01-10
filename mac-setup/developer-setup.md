@@ -22,7 +22,7 @@ Since macOS Catalina, Mac's ship with `zsh` as the default shell. In order to ma
 
 ## Xcode command-line tools
 
-In order to run more interesting commands (e.g. `git`) in the Terminal you need to install the Xcode command-line tools, you can do so even without installing Xcode:
+In order to run more interesting commands (e.g. `git`) in the Terminal you need to install the Xcode command-line tools, you can do so even without fully installing Xcode:
 
 `xcode-select --install`
 
@@ -43,6 +43,17 @@ install Homebrew
 install programs:
 
 - VisualStudio Code :`brew cask install visual-studio-code`
+
+### Jekyll for GitHub pages blogging
+
+install via Ruby:
+
+```zsh
+brew install rbenv
+
+gem install --user-install bundler jekyll
+```
+- serve blog on localhost:4000: ``
 
 ## Other Terminal commands
 
