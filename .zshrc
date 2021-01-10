@@ -70,6 +70,7 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 
+ZSH_DISABLE_COMPFIX="true" # don't complain about permission issues
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -80,8 +81,10 @@ export EDITOR='subl'
 alias zshconfig="subl ~/.zshrc"
 alias ohmyzsh="subl ~/.oh-my-zsh"
 
+
 # Ruby (for Jekyll)
 export PATH="$HOME/.gem/ruby/2.7.0/bin:$PATH"
+eval "$(rbenv init -)"
 
 # SSH - add identity when logging in
 if [ -z "$SSH_AUTH_SOCK" ] ; then
