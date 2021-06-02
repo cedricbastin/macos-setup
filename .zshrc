@@ -3,6 +3,7 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/cedricbastin/.oh-my-zsh"
+export PATH="$HOME/bin:$PATH" # e.g. for ~/bin/subl
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -91,3 +92,7 @@ if [ -z "$SSH_AUTH_SOCK" ] ; then
   eval `ssh-agent -s`
   ssh-add
 fi
+
+# JEnv
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
