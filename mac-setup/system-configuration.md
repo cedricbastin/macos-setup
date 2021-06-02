@@ -54,6 +54,8 @@ Preferences:
 
 ## Keyboard shortcuts 
 
+Modifier Key names and symbols:
+
 - Cmd ⌘ Command
 - Ctrl ⌃ Control
 - Alt ⌥ Option
@@ -62,11 +64,22 @@ Preferences:
 - Fn Function
 
 - App Shortcuts
-	- ⇧⌘/ Show Help menu
+	- `⌘?` aka `⌘⇧/` Show Help menu
 
+## Screenshots
 
-## Terminal commands:
+- `⇧⌘3` take a screenshot of entire Desktop
+- `⇧⌘4` take screenshot of selection `space` to move selection `Esc` to discard
+- `⇧⌘5` Change default location where screenshots are saved to
+- `defaults write com.apple.screencapture name ""` to remove the `Screen Shot` prefix in the file name (will still contain an empty space though)
 
-Expand print dialog by default: defaults write -g PMPrintingExpandedStateForPrint -bool TRUE
-Add dock spaces: defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'; killall Dock
-Dock transition/reveal delay: defaults write com.apple.dock autohide-delay -float 0; killall Dock
+## Terminal commands
+
+Expand print dialog by default:
+`defaults write -g PMPrintingExpandedStateForPrint -bool TRUE`
+
+Add dock spaces:
+`defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'; killall Dock`
+
+Dock transition/reveal delay:
+`defaults write com.apple.dock autohide-delay -float 0; killall Dock`
